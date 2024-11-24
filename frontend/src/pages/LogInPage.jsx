@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar.jsx";
 import { useState } from "react";
-import { useAuthStore } from "../store/useAuthStore";
+import { useAuthStore } from "../store/useAuthStore.js";
 import {
   Eye,
   EyeClosed,
@@ -10,7 +10,7 @@ import {
   MailQuestion,
   MessageSquareQuote,
 } from "lucide-react";
-import AuthImagePattern from "../components/AuthImagePattern";
+import AuthImagePattern from "../components/AuthImagePattern.jsx";
 import { Link } from "react-router-dom";
 
 function LogInPage() {

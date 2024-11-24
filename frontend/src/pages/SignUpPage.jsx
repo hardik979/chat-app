@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import AuthImagePattern from "../components/AuthImagePattern";
+import AuthImagePattern from "../components/AuthImagePattern.jsx";
 
 const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);

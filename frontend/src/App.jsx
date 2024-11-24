@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar.jsx";
 import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import LogInPage from "./pages/LogInPage.jsx";
 import SettingsPage from "./pages/SettingsPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
-import { useAuthStore } from "./store/useAuthStore";
-import { useThemeStore } from "./store/useThemeStore";
+import { useAuthStore } from "./store/useAuthStore.js";
+import { useThemeStore } from "./store/useThemeStore.js";
 import { Toaster } from "react-hot-toast";
 
 function App() {
